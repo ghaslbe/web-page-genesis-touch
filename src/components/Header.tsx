@@ -2,6 +2,7 @@
 import React from 'react';
 import { Check } from 'lucide-react';
 import GoldenButton from './GoldenButton';
+import VideoPlayer from './VideoPlayer';
 
 const Header = () => {
   return (
@@ -43,6 +44,13 @@ const Header = () => {
               <p className="text-sm">Sichere dir jetzt kostenlos die strategischen Grundlagen, die keine andere Agentur oder Onlineshop mit dir teilen würde.</p>
             </div>
           </div>
+        </div>
+
+        <div className="max-w-4xl mx-auto mb-16">
+          <VideoPlayer 
+            src="https://www.ki-lernen.online/videos/kikurs2/kifoundry.mp4"
+            className="rounded-lg overflow-hidden shadow-xl"
+          />
         </div>
         
         <a href="#training">
