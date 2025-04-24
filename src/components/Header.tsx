@@ -1,6 +1,7 @@
 
 import React from 'react';
 import { Check } from 'lucide-react';
+import GoldenButton from './GoldenButton';
 
 const Header = () => {
   return (
